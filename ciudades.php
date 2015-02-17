@@ -3,6 +3,10 @@
 
 require_once "config.inc.php";
 
+
+
+
+
 // Funcion de mi libreria para generar el select 
 function WriteCombo($vals, $name, $selected){
     $res = "<select name='$name' method=\"POST\" onChange=document.forms.ActionForm.submit() > \n";
